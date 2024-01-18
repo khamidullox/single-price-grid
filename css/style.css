@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #9aa7be;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6eff5;
+}
+.card {
+  width: 635px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+}
+.card__content {
+  height: 190px;
+  padding: 40px;
+}
+.card__title {
+  color: #2ab3b1;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 24px;
+}
+.card__subtitle {
+  color: #c0df33;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+  margin-bottom: 11px;
+}
+.card__title-text {
+  margin-bottom: 40px;
+}
+.card__price {
+  display: flex;
+  align-items: flex-start;
+  background-color: #2ab3b1;
+  padding-left: 40px;
+  padding-top: 40px;
+  border-radius: 0 0 8px 8px;
+}
+.card__price-content {
+  width: 318px;
+  height: 220px;
+  flex-shrink: 0;
+}
+.card__price-Subscription {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+  padding-bottom: 18px;
+}
+.card__price-text {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+.card__price-namber {
+  color: #fff;
+  font-family: Karla;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+.card__price-per-month {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+  padding-bottom: 9px;
+}
+.card__price-data {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.2px;
+  padding-bottom: 26px;
+}
+.card__link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  padding: 16px 90px 15px 90px;
+}
+.card__btn {
+  border-radius: 5px;
+  background: #c0df33;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.card__why {
+  width: 200px;
+}
+.card__price-why {
+  color: #fff;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.225px;
+  margin-bottom: 18px;
+}
+.card__price-text {
+  color: #fff;
+  font-family: Karla;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.175px;
+  opacity: 0.75;
+}
+.card__link:hover{
+    background-color:yellowgreen;
+}
